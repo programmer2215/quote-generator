@@ -1,0 +1,24 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20%;
+    background: #151E3F;
+}
+
+#quote-container{
+    background: #DBDFAC;
+    color: #2978A0;
+    font-family: Garamond;
+    padding: 2%;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 200px;
+    border-radius: 6px;
+    font-size: 2.5vw;
+
+
+}
