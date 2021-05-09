@@ -1,24 +1,31 @@
+@import url(https://fonts.googleapis.com/css?family=Glegoo);
 body{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
+    
+    
     margin: 20%;
     background: #151E3F;
 }
 
+
+
+
 #quote-container{
     background: #DBDFAC;
     color: #2978A0;
-    font-family: Garamond;
-    padding: 2%;
-    font-weight: bolder;
+    font-family: 'Glegoo', serif;
+    padding: 5%;
+    
+    font-weight: bold;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 80%;
-    height: 200px;
+    height: 300px;
+    min-height: 300px;
     border-radius: 6px;
-    font-size: 2.5vw;
+    font-size: 1.65vw;
 
 
 }
