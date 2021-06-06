@@ -7,7 +7,7 @@ parser = soup(request.text, 'html.parser')
 
 quotes_raw = parser.find_all("blockquote")
 quotes = []
-fin = {}
+json_obj = {}
 
 for quote in quotes_raw:
     quotes.append(
@@ -15,10 +15,10 @@ for quote in quotes_raw:
          "author": quote.find("cite").text}
         )
 
-fin["data"] = quotes
+json_obj["data"] = quotes
 
 
 with open('quotes.json', 'w') as fp:
-    quotes = json.dumps(fin)
-    json.dump(fin, fp)
+    quotes = json.dumps(json_obj)
+    json.dump(json_obj, fp)
     
