@@ -12,7 +12,7 @@ async function get_data(){
     var quote_json = response[index];
     const quote = quote_json.text;
     const author = quote_json.author;
-    document.getElementById('quote-box').innerHTML =  `${quote} <br> <hr> <b><i> ${author} </i></b>`
+    document.getElementById('quote-box').innerHTML =  `\u201c${quote}\u201d <br> <hr> <b><i> \u2013${author} </i></b>`
     
 
     
