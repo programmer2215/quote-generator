@@ -2,25 +2,37 @@
 body{
     display: flex;
     flex-direction: column;
-    background: #151E3F;
+    background: #0C2D48;
+    justify-content: center;
+    align-items: center;
+
 }
-
-
-
-
-#quote-container{
-    background: #DBDFAC;
-    color: #2978A0;
-    font-family: 'Glegoo', serif;
-    padding: 5%;
-    font-size: 200%;
-    font-weight: bold;
+div{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 80%;
-    
-    min-height: 300px;
+}
+
+#title{
+    color: #B1D4E0; /*#29EEA0;*/
+    font-family: 'Glegoo', serif;
+    text-shadow: 4px 4px 4px #0E86D4;
+    font-size: 250%;
+    font-weight: bold;
+    padding: 2%;
+    width: 60%;
+}
+
+
+#quote-container{
+    background: #B1D4E0;
+    color: #145DA0;
+    font-family: 'Glegoo', serif;
+    padding: 3%;
+    font-size: 180%;
+    font-weight: bold;
+    width: 60%;
+    min-height: 250px;
     border-radius: 6px;
 
 
