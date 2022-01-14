@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Glegoo);
 @import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 body{
     display: flex;
     flex-direction: column;
@@ -26,16 +27,20 @@ div{
 }
 
 
-#quote-container{
+#quoteContainer{
     background: #B1D4E0;
     color: #145DA0;
-    font-family: 'Glegoo', serif;
+    font-family: 'Permanent Marker', cursive;
+    /*font-family: 'Glegoo', serif;*/
     padding: 3%;
     font-size: 180%;
     font-weight: bold;
     width: 60%;
     min-height: 250px;
     border-radius: 6px;
+}
 
-
+.social{
+    width: 40px;
+    margin: 30px;
 }

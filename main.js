@@ -1,6 +1,4 @@
 
-
-
 async function get_data(){
     var response = await fetch('https://type.fit/api/quotes')
     .then((response) => response.json())
@@ -24,4 +22,4 @@ async function get_data(){
 
 document.addEventListener("DOMContentLoaded", get_data);
 
-document.addEventListener("click", get_data);
+document.getElementById("quoteContainer").addEventListener("click", get_data);
