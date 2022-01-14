@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Glegoo);
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
 body{
     display: flex;
     flex-direction: column;
@@ -15,7 +16,8 @@ div{
 
 #title{
     color: #B1D4E0; /*#29EEA0;*/
-    font-family: 'Glegoo', serif;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    /*font-family: 'Glegoo', serif;*/
     text-shadow: 4px 4px 4px #0E86D4;
     font-size: 250%;
     font-weight: bold;
